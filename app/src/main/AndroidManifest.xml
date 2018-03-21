@@ -21,6 +21,10 @@
             android:name=".SimpleActivity"
             android:label="@string/simple" >
         </activity>
+        <activity
+            android:name=".DynamicActivity"
+            android:label="@string/dynamic" >
+        </activity>
     </application>
 
 </manifest>

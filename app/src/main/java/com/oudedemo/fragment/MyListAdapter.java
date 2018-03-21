@@ -42,6 +42,12 @@ public class MyListAdapter extends RecyclerView.Adapter<MyListAdapter.ViewHolder
                             intent.setClass(v.getContext(),SimpleActivity.class);
                             v.getContext().startActivity(intent);
                             break;
+						case 1:
+                            //Intent intent =new Intent("com.oudedemo.fragment.ACTION_START");
+                            Intent intent1 = new Intent();
+                            intent1.setClass(v.getContext(),DynamicActivity.class);
+                            v.getContext().startActivity(intent1);
+                            break;
                         default:
                             Toast.makeText(v.getContext(), "you clicked view " + MyList.getName(), Toast.LENGTH_SHORT).show();
                             break;

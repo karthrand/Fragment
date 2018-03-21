@@ -3,5 +3,6 @@
 
     <string name="app_name">Fragment</string>
     <string name="simple">Fragment静态加载</string>
+    <string name="dynamic">Fragment动态加载</string>
 
 </resources>
