@@ -14,6 +14,7 @@ public class DynamicActivity extends FragmentActivity implements View.OnClickLis
 		setContentView(R.layout.dynamic);
 		Button button =(Button) findViewById(R.id.simpletopButton1);
 		button.setOnClickListener(this);
+        //使用replaceFragment动态替换fragment
 		replaceFragment(new SimpleBottom());
 	}
 	
@@ -27,7 +28,7 @@ public class DynamicActivity extends FragmentActivity implements View.OnClickLis
 		transaction.commit();
 		
 	}
-	
+	//按钮实现功能
 	@Override
 	public void onClick(View p1)
 	{

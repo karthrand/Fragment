@@ -14,6 +14,7 @@ public class MainActivity extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        //步骤一：创建recycleview用于显示多钟加载情况
         initMylist();
         RecyclerView recycleView = (RecyclerView) findViewById(R.id.mainRecyclerView1);
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);

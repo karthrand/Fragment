@@ -10,6 +10,7 @@ public class SimpleActivity extends FragmentActivity
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
+        //步骤二：
         setContentView(R.layout.simple);
     }
     
